@@ -1,0 +1,123 @@
+*
+{
+color:white;
+}
+body 
+{
+    background-color:black;
+}
+
+header 
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+header h1
+{
+    color:white;
+    margin-bottom:2px;
+}
+
+header h2 
+{
+    color:grey;
+    margin-top:0px;
+
+}
+nav ul 
+{
+    padding:0;
+    list-style:none;
+    display:inline-flex;
+}
+
+nav li
+{
+    margin-right:35px;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:bold;
+
+}
+
+nav a
+{
+    text-decoration:none;
+    color: white;
+
+    
+}
+
+.bar, .bar2
+{
+    border-top:1px solid grey;
+    width:50px;
+    
+}
+
+header .bar2
+{
+    width:50%;
+}
+
+main
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+main h2
+{
+    color:white;
+    text-transform:uppercase;
+}
+
+section 
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.AboutPresentation
+{
+    display:flex;
+    flex-direction:row;
+}
+
+main .bar
+{
+    margin-top:20px;
+}
+
+main ul 
+{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    font-size:20px;
+}
+
+.highlight
+{
+    font-weight:bolder;
+    color:orange;
+}
+
+.About ul {
+    align-items:flex-start;
+}
+}
+.Skills {
+}
+
+.Skills li {
+    margin:20px 0px 20px 0px;
+}
